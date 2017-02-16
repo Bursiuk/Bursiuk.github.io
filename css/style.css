@@ -1,3 +1,10 @@
-h1 {
-	color: red;
+.box {
+	border: 2px solid #000;
+	height: 100px;
+	margin-top: 10%;
+}
+.box_in {
+	height: 50px;
+	background-color: green;
+	border: 2px dotted #000;
 }
