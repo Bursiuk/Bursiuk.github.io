@@ -1,76 +1,146 @@
-.main-logo-border {
-	border: 3px solid #706b73;
-	width: 155px;
-	height: 55px;
-	text-align: center;
-	line-height: 49px;
+.opn-reg {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
-
+.opn-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #626262;
+}
+header {
+  background-color: #f5f5f5;
+  min-height: 700px;
+  height: 100vh;
+}
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
 .main-head {
-	margin-top: 3%;
+  margin-top: 3%;
 }
-
+.main-logo-border {
+  width: 155px;
+  height: 55px;
+  text-align: center;
+  line-height: 49px;
+  border: 3px solid #706b73;
+}
 .main-logo-border p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 36px;
-	color: #706b73;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #706b73;
 }
-
-.color-logo {
-	color: #fa9a87;
+.main-logo-border p span {
+  color: #fc7b5d;
 }
-
 .main-nav-bar {
-	position: relative;
-	width: 55px;
-	float: right;
-	height: 55px;
+  width: 55px;
+  height: 55px;
+  position: relative;
+  float: right;
 }
-
+.main-text {
+  margin-top: 3%;
+  text-align: center;
+}
+.main-text h1 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.main-text h1 span {
+  color: #fc6744;
+}
+.main-text p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main-form {
+  margin-top: 10%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  padding: 35px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+.main-form-header {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.main-form-header span {
+  color: #fc6744;
+}
+.main-form input,
+.main-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #706b73;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.main-form-btn {
+  background-color: #fc6744;
+  border: none;
+  padding: 15px 50px;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 16px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
 .line {
-	display: block;
-	width: 35px;
-	height: 4px;
-	background-color: #706b73;
-	position: absolute;
-	right: 0;
-	top: 50%;
-	--webkit-transform: translateY(-2px);
-	-ms-transform: translateY(-2px);
-	-o-transform: translateY(-2px);
-	transform: translateY(-2px);
-	border-radius: 5px;
+  width: 30px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  background-color: #706b73;
+  right: 0;
+  top: 50%;
+  border-radius: 5px;
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  transform: translateY(-2px);
 }
-
-.line:before {
-	display: block;
-	width: 35px;
-	height: 4px;
-	background-color: #706b73;
-	position: absolute;
-	content: '';
-	right: 0;
-	top: 50%;
-	--webkit-transform: translateY(-8px);
-	-ms-transform: translateY(-8px);
-	-o-transform: translateY(-8px);
-	transform: translateY(-8px);
-	border-radius: 5px;
-}
-
+.line:before,
 .line:after {
-	display: block;
-	width: 35px;
-	height: 4px;
-	background-color: #706b73;
-	position: absolute;
-	content: '';
-	right: 0;
-	top: 50%;
-	--webkit-transform: translateY(4px);
-	-ms-transform: translateY(4px);
-	-o-transform: translateY(4px);
-	transform: translateY(4px);
-	border-radius: 5px; 
+  width: 30px;
+  height: 4px;
+  background-color: #706b73;
+  display: inline-block;
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 50%;
+  border-radius: 5px;
+}
+.line:before {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  -o-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.line:after {
+  -webkit-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  transform: translateY(4px);
 }
