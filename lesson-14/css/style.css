@@ -41,6 +41,9 @@ section {
 .section-header p {
   font-size: 16px;
 }
+section#works {
+  background-color: #fbfbfb;
+}
 .main-head {
   margin-top: 3%;
 }
