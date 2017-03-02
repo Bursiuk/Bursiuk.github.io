@@ -457,6 +457,7 @@ footer {
   }
   .main-text p {
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 13px;
   }
   .main-form-btn {
@@ -468,10 +469,11 @@ footer {
   .section-header h2 {
     font-size: 26px;
     margin-top: 20%;
+    line-height: 1.5;
   }
   .section-header p {
     font-size: 14px;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     margin-top: 15%;
   }
   .process-box {
@@ -481,11 +483,11 @@ footer {
     height: 100%;
   }
   .sign p {
-    font-size: 11px;
+    font-size: 18px;
   }
   .sign button {
-    padding: 3px 5px;
-    font-size: 11px;
+    padding: 5px 10px;
+    font-size: 18px;
   }
   .services-list {
     text-align: center;
@@ -494,14 +496,16 @@ footer {
   }
   .services-list-item {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
   .services-list-item img {
     float: right;
+    width: 75px;
+    height: 75px;
   }
   .services-btn {
-    padding: 10px 20px;
+    padding: 8px 10px;
     position: absolute;
     right: 5%;
   }
@@ -512,8 +516,14 @@ footer {
     font-size: 14px;
   }
   .img-responsive {
-    width: 40%;
+    width: 100%;
     height: auto;
+  }
+  .works-box {
+    margin-bottom: 5%;
+  }
+  .footer-btn {
+    margin-top: 40%;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -531,22 +541,23 @@ footer {
   }
   .main-text p {
     margin-top: 40px;
+    margin-bottom: 50px;
   }
   .main-form-btn {
     padding: 10px 30px;
   }
-  .process-box {
-    margin-top: 70px;
+  .main-form {
+    margin-top: -10px;
   }
   .works-box {
     height: 100%;
   }
   .sign p {
-    font-size: 14px;
+    font-size: 20px;
   }
   .sign button {
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 20px;
   }
   .services-list {
     text-align: center;
@@ -565,8 +576,21 @@ footer {
     right: 10%;
   }
   .img-responsive {
-    width: 40%;
+    width: 80%;
     height: auto;
+  }
+  .works-box {
+    margin-bottom: 5%;
+  }
+  .process-box {
+    margin-top: 70px;
+    width: 50%;
+  }
+  .process-box button {
+    width: 33%;
+  }
+  .box-center {
+    transform: translateX(27%);
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -607,10 +631,17 @@ footer {
     width: 100%;
     height: auto;
   }
+  .box-center {
+    width: 49%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .main-form-btn {
     padding: 10px 30px;
+  }
+  .main-text p {
+    font-size: 18px;
+    padding-top: 5%;
   }
   .works-box {
     height: 294px;

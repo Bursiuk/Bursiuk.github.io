@@ -513,6 +513,7 @@ footer {
 			}
 			p {
 				margin-top: 30px;
+				margin-bottom: 30px;
 				font-size: 13px;
 			}
 		}
@@ -527,10 +528,11 @@ footer {
 		h2 {
 			font-size: 26px;
 			margin-top: 20%;
+			line-height: 1.5;
 		}
 		p {
 			font-size: 14px;
-			margin-bottom: 5%;
+			margin-bottom: 15%;
 			margin-top: 15%;
 		}
 	}
@@ -542,11 +544,11 @@ footer {
 	}
 	.sign {
 		p {
-			font-size: 11px;
+			font-size: 18px;
 		}
 		button {
-			padding: 3px 5px;
-			font-size: 11px;
+			padding: 5px 10px;
+			font-size: 18px;
 		}
 	}
 	.services {
@@ -556,15 +558,17 @@ footer {
 			margin-bottom: 30px;
 			&-item {
 				display: inline-block;
-				width: 100px;
-				height: 100px;
+				width: 75px;
+				height: 75px;
 				img {
 					float: right;
+					width: 75px;
+					height: 75px;
 				}	
 			}
 		}
 		&-btn {
-			padding: 10px 20px;
+			padding: 8px 10px;
 			position: absolute;
 			right: 5%;
 		}
@@ -579,8 +583,18 @@ footer {
 		}
 	}
 	.img-responsive {
-		width: 40%;
+		width: 100%;
 		height: auto;
+	}
+    .works {
+    	&-box {
+    		margin-bottom: 5%;
+    	}
+    }
+    .footer {
+		&-btn {
+			margin-top: 40%;
+		}
 	}
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -602,25 +616,27 @@ footer {
 			}
 			p {
 				margin-top: 40px;
+				margin-bottom: 50px;
 			}
 		}
 		&-form-btn {
 			padding: 10px 30px;
 		}
+		&-form {
+			margin-top: -10px;
+		}
 	}
-	.process-box {
-		margin-top: 70px;
-	}
+
 	.works-box {
 		height: 100%;
 	}
 	.sign {
 		p {
-			font-size: 14px;
+			font-size: 20px;
 		}
 		button {
 			padding: 5px 10px;
-			font-size: 14px;
+			font-size: 20px;
 		}
 	}
 	.services {
@@ -642,8 +658,23 @@ footer {
 		}
 	}
 	.img-responsive {
-		width: 40%;
+		width: 80%;
 		height: auto;
+	}
+    .works {
+		&-box {
+			margin-bottom: 5%;
+		}
+	}
+	.process-box {
+		margin-top: 70px;
+		width: 50%;
+		button {
+			width: 33%;
+		}
+	}
+	.box-center {
+		transform: translateX(27%);
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -690,11 +721,20 @@ footer {
 		width: 100%;
 		height: auto;
 	}
+	.box-center {
+		width: 49%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.main {
 		&-form-btn {
 			padding: 10px 30px;
+		}
+		&-text {
+			p {
+				font-size: 18px;
+				padding-top: 5%;
+			}
 		}
 	}
 	.works-box {
@@ -710,6 +750,7 @@ footer {
 			}
 		}
 	}
+	
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
 	
