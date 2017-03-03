@@ -590,6 +590,9 @@ footer {
     width: 33%;
   }
   .box-center {
+    -webkit-transform: translateX(27%);
+    -ms-transform: translateX(27%);
+    -o-transform: translateX(27%);
     transform: translateX(27%);
   }
 }
