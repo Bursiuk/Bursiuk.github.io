@@ -1,0 +1,23 @@
+.flex-container {
+	height: 500px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	background-color: #000000;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	-o-justify-content: space-around;
+	justify-content: space-around;	
+	align-items: center;					
+}
+.box {
+	background-color: #ffffff;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 6;
+	font-size: 25px;
+}
